@@ -14,7 +14,7 @@ class AcueStore {
             this.optimizeForOlderDevices();
         }
 
-        this.init();
+
     }
 
     init() {
@@ -22,7 +22,7 @@ class AcueStore {
         this.renderHotApps();
         this.renderApps();
         this.updateActiveNavLink();
-        this.initThemeToggle();
+
         this.initBadgeModal();
         this.initLGWingSupport();
     }
@@ -1029,8 +1029,7 @@ class AcueStore {
 }
 
 // Initialize the app when the DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    window.acueStore = new AcueStore();
+document.addEventListener('DOMContentLoaded', () => 
 });
 
 // Add category active state styles
