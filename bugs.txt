@@ -1,0 +1,7 @@
+script.js:25  Uncaught TypeError: this.initThemeToggle is not a function
+    at AcueStore.init (script.js:25:14)
+    at new AcueStore (script.js:17:14)
+    at HTMLDocument.<anonymous> (script.js:1033:24)
+
+
+WB: non working
