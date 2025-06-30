@@ -22,7 +22,7 @@ class AcueStore {
         this.renderHotApps();
         this.renderApps();
         this.updateActiveNavLink();
-        this.initThemeToggle();
+        /#this.initThemeToggle();
         this.initBadgeModal();
         this.initLGWingSupport();
     }
